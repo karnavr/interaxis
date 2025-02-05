@@ -1,0 +1,18 @@
+/* Base styles */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 2rem;
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+
+/* Typography */
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+  letter-spacing: -0.03em;
+}
