@@ -79,4 +79,6 @@ footer {
   max-width: 1600px;
   margin: 0 auto;
   padding: 0 2rem;
+  text-align: right;
+  font-size: 0.8rem;  
 }
