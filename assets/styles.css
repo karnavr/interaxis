@@ -13,11 +13,10 @@ html, body {
 }
 
 /* Base styles */
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
   color: #1a1a1a;
   background-color: #ffffff;
   min-height: 100vh;  /* Ensure body takes at least full viewport height */
@@ -32,53 +31,17 @@ body {
   }
 }
 
-/* Typography */
-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 1.2;
-  margin: 0 0 1rem 0;
-  letter-spacing: -0.03em;
-}
+/* Layout */
 
 .container {
   flex: 1;  /* This makes the container take up all available space */
   max-width: 600px;
   width: 100%;
-  margin: 10rem auto 0; 
+  margin: 10em auto; 
   padding: 2rem;
 }
 
-.intro p {
+.container p {
   margin-bottom: 1rem;
   text-align: left;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto;
-  max-width: 60px; /* adjust based on your needs */
-  height: auto;
-  margin-bottom: 2rem;
-  user-select: none;  /* Prevents text selection */
-  -webkit-user-select: none;  /* Safari support */
-  -moz-user-select: none;     /* Firefox support */
-  -ms-user-select: none;      /* IE/Edge support */
-}
-
-footer {
-  width: 100%;
-  max-width: 1600px;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
-  color: #666;
-  margin: 0 auto;
-}
-
-.footer-content {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  text-align: right;
-  font-size: 0.8rem;  
 }
